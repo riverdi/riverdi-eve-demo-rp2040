@@ -5,7 +5,7 @@ This repository contains example of [*riverdi-eve-lib*](https://github.com/river
 PREREQUISITES
 -------------
 
-To get started, please make sure, that all libraries and tools for C/C++ development on RP2040 microcontrollers (*Raspberry Pi Pico C/C++ SDK*) are properly installed and confgiured on your machine - visit [*Getting started with Raspberry Pi Pico*](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) for more info.
+To get started, please make sure, that all libraries and tools for C/C++ development on RP2040 microcontrollers (*Raspberry Pi Pico C/C++ SDK*) are properly installed and configured on your machine - visit [*Getting started with Raspberry Pi Pico*](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) for more info.
 
 CONNECTIONS
 -----------
@@ -23,6 +23,8 @@ CONNECTIONS
 
 COMPILATION
 -----------
+
+__Note:__ *before compilation, please edit CMakeLists.txt file to choose Embedded Video Engine series (-DEVE_1, -DEVE_2, -DEVE_3 or -DEVE_4 flags), choose type and size of connected TFT module (choose predefined macros for Riverdi EVE modules or edit timings manually in modules.h file for custom displays) or to adjust compilation settings.*
 
 [1] Set *PIC_SDK_PATH* variable:
 
